@@ -1,0 +1,118 @@
+    /*KOLORY .kocieTexty.pl
+#080706 Black Steel
+#EFEFEF Paper
+#D1B280 Gold Leaf
+#594D46 Silver*/
+
+/* IMPORTY */
+
+@import url('https://fontlibrary.org//face/glacial-indifference');
+@import url('https://use.typekit.net/fyu2kzw.css');
+@import url('http://fonts.googleapis.com/css?family=Amatic');
+
+
+
+
+body{
+    background-color: #D1B280;
+    margin: auto;
+    font-family: 'GlacialIndifferenceRegular', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+/* COLOR OVERRIDE */
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #594D46 !important;
+    font-family: 'GlacialIndifferenceRegular', Arial, Helvetica, sans-serif !important;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show .nav-link {
+    color: #EFEFEF;
+    font-family: 'GlacialIndifferenceRegular', Arial, Helvetica, sans-serif !important;
+    background-color: #594D46 !important;
+}
+
+.nav-link {
+        color: #594D46 !important;
+
+}
+.nav-link.active {
+    color:  #EFEFEF !important;
+}
+
+.bg-dark {
+    background-color: #D1B280 !important;
+}
+.navbar-dark .navbar-brand {
+    color: #080706 !important;
+}
+
+  .carousel-inner img {
+    margin: auto;
+  }
+  /* end of overrides */
+  
+
+.box {
+    background-color: #EFEFEF;
+    color: #080706;
+    border-radius: 30px;
+    padding: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boxBlack {
+    background-color: #080706;
+    color: #EFEFEF;
+    border-radius: 30px;
+    padding: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ukryty {
+    visibility: hidden;
+    max-height: 40px;
+}    
+
+div .col-sm-3 {
+        /* abosulte tylko po ramkach z DIVa ; float do zawijania tekstu, tutaj redundant*/
+
+        background-color: #cf3fb7;
+        color: #080706;
+        border-radius: 30px;
+        outline-style: solid;
+        outline-color: white;
+        padding: 1%;
+        margin: 1%;
+}
+
+
+/* TEKST */
+
+p {
+    font-family: 'GlacialIndifferenceRegular', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+ } 
+
+ .akapit {
+    font-family: 'adobe-caslon-pro', serif;
+    font-weight: 800;
+    font-style: italic;    
+}
+
+/* Header */
+.naglowek {
+    grid-area: header;
+    background-color:#080706;
+    color: #EFEFEF;
+    padding: 2rem;
+    text-align: center;
+    font-size: 25px;
+}

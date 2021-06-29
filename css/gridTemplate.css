@@ -1,0 +1,194 @@
+/* 
+
+TO JEST WŁAŚCIWY TEMPLATE DO ROBIENIA .kocieTexty.pl
+
+KOLORY .kocieTexty.pl
+#080706 Black Steel
+#EFEFEF Paper
+#D1B280 Gold Leaf
+#594D46 Silver
+
+
+$colorName: numerkoloru;
+pozwala na sprecyzowanie jaki odcień koloru np. green ma być. */
+
+/* IMPORTY */
+
+@import url('https://fontlibrary.org//face/glacial-indifference');
+@import url('https://use.typekit.net/fyu2kzw.css');
+@import url('http://fonts.googleapis.com/css?family=Amatic');
+
+/* FOR RESPONSIVE DESIGN CHECK OUT MEDIA QUERIES ON w3schools.com */
+
+/* STYLE SHEET */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'GlacialIndifferenceRegular', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    background-color: #EFEFEF;
+}
+
+p {
+    font-family: 'GlacialIndifferenceRegular', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+ } 
+
+.akapit {
+    font-family: 'adobe-caslon-pro', serif;
+    font-weight: 800;
+    font-style: italic;    
+}
+
+/* Header */
+.naglowek {
+    grid-area: header;
+    background-color:#080706;
+    color: #EFEFEF;
+    padding: 2rem;
+    text-align: center;
+    font-size: 25px;
+}
+
+/* container tabelki */
+.tabela {
+    display: grid;
+    grid-template-areas: 
+    'header header header header header header' 
+    'left middle middle middle middle right' 
+    'footer footer footer footer footer footer';
+    column-gap: 10px; 
+}
+
+/* styl kolumn */
+.left,
+.middle,
+.right {
+    padding: 10px;
+}
+
+.left {
+    grid-area: left;
+    grid-column:  1 / 2;
+    background-color: #D1B280;
+}
+
+.middle {
+    grid-area: middle;
+    grid-template: auto 1fr auto / auto 1fr auto;
+    background-color: #D1B280;
+    border-radius: 1%;
+}
+.right {
+    grid-area: right;
+    background-color: #D1B280;
+    border-radius: 1%;
+
+}
+
+/* stopka */
+.footer {
+    /* można dać position:sticky */
+    grid-area: footer;
+    background-color: #594D46;
+    padding: 10px;
+    text-align: center;
+
+}
+
+
+/* Responsive layout  zobaczymy co to*/
+@media (max-width: 600px) {
+    .grid-container  {
+      grid-template-areas: 
+        'header header header header header header' 
+        'left left left left left left' 
+        'middle middle middle middle middle middle' 
+        'right right right right right right' 
+        'footer footer footer footer footer footer';
+    }
+  }
+
+/* NAVIGATION BAR PIONOWY*/
+.navPoziom {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #594d46;
+}
+
+.liPoziom a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #EFEFEF;
+}
+
+.liPoziom a:hover {
+    background-color: #EFEFEF;
+    color: #080706;
+
+}
+
+/* NAWIGACJA W LEWEJ KOLUMNIE */
+.navPion {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+    background-color: #594d46;
+    border-radius: 10%;
+
+}
+
+.liPion a {
+    display: block;
+    color: #080706;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+/* hover change */
+
+.liPion a:hover {
+        border-radius: 10%;
+        background-color: #080706;
+        color:#D1B280;
+
+}
+
+/* OBRAZKI */
+/* CLEARFIX z w3schools pomaga poprawnie umieścić obrazki w divach */
+
+.obrazekNaglowny {
+    width: 230px;
+    border-radius: 50%;
+    border: 10px solid #EFEFEF;
+}
+
+.obrazek {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 3%;
+    text-align: center;
+}
+
+/* Message Me */
+.messageMe {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    width: 40px;
+    border-radius: 40%;
+    border: 2px solid #EFEFEF;
+
+}

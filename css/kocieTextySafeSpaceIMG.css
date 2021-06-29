@@ -1,0 +1,397 @@
+    /*KOLORY .kocieTexty.pl
+#080706 Black Steel
+#EFEFEF Paper
+#D1B280 Gold Leaf
+#594D46 Silver*/
+
+/* IMPORTY */
+
+@import url('https://fontlibrary.org//face/glacial-indifference');
+@import url('http://fonts.googleapis.com/css?family=DM+Serif+Text');
+@import url('https://use.typekit.net/fyu2kzw.css');
+@import url('http://fonts.googleapis.com/css?family=Amatic');
+
+
+
+
+body {
+    background-color: rgb(240, 229, 195);
+    margin: auto;
+    font-family: 'GlacialIndifferenceRegular', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* COLOR OVERRIDE */
+.btn-primary, .btn-primary:active, .btn-primary:visited {
+    background-color: #D1B280 !important;
+    border-color: #EFEFEF !important;
+    font-family: 'GlacialIndifferenceRegular', Arial, Helvetica, sans-serif !important;
+}
+
+.btn-primary:hover {
+    background-color: #594D46 !important;
+    border-color: #594D46 !important;
+    color: #D1B280 !important;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show .nav-link {
+    color: #EFEFEF;
+    font-family: 'GlacialIndifferenceRegular', Arial, Helvetica, sans-serif !important;
+    background-color: #D1B280 !important;
+    border-color: #594D46 !important;
+}
+
+.nav-link {
+        color: #594D46;
+        border-radius: 30px;
+        margin-left: 30px;
+        margin-right: 30px;
+}
+
+.nav-link:hover {
+    color: #fff;
+    background-color: #594D46;
+}
+
+.nav-link.active {
+    color:  #EFEFEF !important;
+    background-color: #D1B280 !important;
+    border-color: #D1B280 !important;
+}
+
+
+  /* .tab-content{
+      padding: 20px;
+  }
+   */
+  .nav-tabs > li > a {
+    color: #080706 !important;
+  }
+  
+  .nav-tabs > li > a:hover{
+    background-color: #594D46 !important;
+    color: #EFEFEF !important;
+  }
+
+  .btn-link {
+    color: #594D46;
+  }
+
+  .btn-link:hover {
+    color: #D1B280;
+  }
+
+/* END OVERRIDES */
+
+/* IMG */
+
+    .navImg {
+        height: 40px;
+        width: auto;
+        margin: 3px;
+    }
+
+    #home-section {
+        height: 100vh;
+    }
+
+    #why-section {
+        height: 100vh;
+    }
+    
+    #home-section-background {
+        background-image:url(../img/stock/catPeeking.jpg);
+        background-size: cover;
+        overflow: hidden;
+        min-height: auto;
+        min-width: 400px;
+    }
+
+    #why-section-background {
+        background-image:url(../img/stock/catShelf.jpg);
+        background-size: cover;     
+        min-height: auto;
+        min-width: 400px;
+    }
+
+    .logoNoText {
+        width: auto;
+        max-width: 150px;
+        height: auto;
+    }
+
+    .logoMedia {
+        max-width: 96px;
+        height: auto;
+    }
+
+    .card-img-top {
+        border-radius: 30px;
+    }
+
+    .obrazekNaglowny {
+        width: auto;
+        max-width: 150px;
+        height: auto;
+        border-radius: 50%;
+        border: 2px solid #D1B280;
+    }
+
+
+
+/* testing */
+
+  .hero-image {
+    background-image:url(../img/stock/catShelfCoverShorter.jpg);
+    background-color: #cccccc;
+    width: 100%;
+    height: 2232px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .hero-header {
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(253, 30, 67);
+    font-size: 74px;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+  }
+
+  /* .hero-image:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 15%;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-image: linear-gradient(
+      to bottom,
+      0deg,
+      hsla(0, 0%, 35.29%, 0) 0%,
+      hsla(0, 0%, 34.53%, 0.034375) 16.36%,
+      hsla(0, 0%, 32.42%, 0.125) 33.34%,
+      hsla(0, 0%, 29.18%, 0.253125) 50.1%,
+      hsla(0, 0%, 24.96%, 0.4) 65.75%,
+      hsla(0, 0%, 19.85%, 0.546875) 79.43%,
+      hsla(0, 0%, 13.95%, 0.675) 90.28%,
+      hsla(0, 0%, 7.32%, 0.765625) 97.43%,
+      hsla(0, 0%, 0%, 0.8) 100%
+    );
+  } */
+  
+  
+    /*  CONTENT */
+
+
+@media only screen and (min-width: 1024px) {
+#home-section {
+    height: 100vh;
+}
+    #why-section {
+        height: 100vh;
+    }
+}
+
+#home-section-background {
+    background-image:url(../img/stock/catBookshelf.jpg);
+    background-size: cover;
+    overflow: hidden;
+    min-height: auto;
+    min-width: 400px; 
+}
+
+
+.aw-vertical-align {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100vh;
+}
+
+.aw-heading {
+    font-weight: 600;
+    font-size: 4rem;
+    letter-spacing: 0.10rem;
+    position: absolute;
+    align-self: center;
+    text-shadow: #080706;
+    
+}
+
+.aw-ending {
+    color: red;
+}
+
+
+.box {
+    background-color: #fff;
+    color: #080706;
+    border-color: #D1B280;
+    border-radius: 30px;
+    padding: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boxBlack {
+    background-color: #080706;
+    color: #EFEFEF;
+    border-color: #EFEFEF;
+    border-radius: 30px;
+    padding: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boxGold {
+    background-color: #fff;
+    color: #080706;
+    border-color: #D1B280;
+    border-radius: 30px;
+    padding: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boxGrey {
+    background-color: inherit;
+    border-color: #594D46;
+    border-radius: 30px;
+    padding: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ikona {
+    background-color: #D1B280;
+    padding: 7px;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+
+}
+
+.ukryty {
+    visibility: hidden;
+    max-height: 40px;
+}
+
+.footer {
+    background-color: #594D46;
+    color: #776961;
+    margin: 0;
+    padding: 30px;
+}
+
+.footer .btn-link {
+    color: #D1B280;
+
+}
+
+.footer .btn-link:hover {
+    color: #EFEFEF;
+}
+
+
+div .col-sm-3 {
+        /* abosulte tylko po ramkach z DIVa ; float do zawijania tekstu, tutaj redundant*/
+
+        background-color: #cf3fb7;
+        color: #080706;
+        border-radius: 30px;
+        outline-style: solid;
+        outline-color: white;
+        padding: 1%;
+        margin: 1%;
+}
+
+.carousel {
+     width:80%; height: auto;
+     margin: auto;
+     }
+
+
+/* TEKST */
+
+p {
+    font-family: 'GlacialIndifferenceRegular', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+ } 
+
+ .akapit {
+    font-family: 'DM Serif Text', serif;
+    font-weight: 800;
+    font-style: italic;    
+}
+
+.akapitMniejszy {
+    font-family: 'DM Serif Text', serif;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.card-title {
+    font-family: 'DM Serif Text', serif;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+/* Header */
+.naglowek {
+    grid-area: header;
+    background-color:#080706;
+    color: #EFEFEF;
+    padding: 2rem;
+    text-align: center;
+    font-size: 25px;
+}
+
+.linkText {
+    color: #594D46;
+    font-family: 'GlacialIndifferenceRegular', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.carouselHeader {
+    font-weight: 600;
+    color: #EFEFEF;
+    text-align: center;
+    font-size: 24px;
+}
+
+.carouselText {
+    font-weight: 400;
+    color: #EFEFEF;
+    text-align: center;
+    font-size: 16px;
+}
+
+.hero-p {
+    font-size: 22px;
+}

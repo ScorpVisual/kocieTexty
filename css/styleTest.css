@@ -1,0 +1,80 @@
+ .naglowek {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    margin: 0;
+ }
+ 
+ body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    place-items: center;
+     margin: 0;
+     font-family: Helvetica, Arial, sans-serif;
+ }
+
+ .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+ }
+ /* zmienia kolor po najechaniu */
+ .topnav a:hover {
+     background-color: pink;
+     color: red;
+
+ }
+ 
+ /* style for content, czyli chyba mainBody */
+
+.content {
+    background-color: grey;
+    padding: 10px;
+}
+
+/* stopka */
+.footer {
+    background-color: coral;
+    padding: 10px;
+}
+
+ header {
+     background-color: black;
+     text-align: center;
+     padding-top: 2%;
+     padding-bottom: 2%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    margin: 0;
+ }
+ 
+ divTekstowy {
+     text-align: center, justify;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ header h1 {
+     color: white;
+ }
+
+ .obrazekNaglowny {
+     width: 230px;
+     border-radius: 50%;
+     border: 10px solid white;
+ }
+
+ .obrazek {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 50%;
+     padding: 3%;
+     text-align: center;
+ }
+
+ main {
+     max-width: 800px;
+     margin: 2%;
+ }
