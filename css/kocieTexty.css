@@ -375,6 +375,20 @@ body {
     align-self: left;
     text-shadow: #080706;
 }
+.ad1-check {
+    font-weight: 100;
+    font-size: 2rem;
+    letter-spacing: 0.10rem;
+    position: absolute;
+    margin-top: 500px;
+    margin-right: 65%;
+    align-self: center;
+    color: red;
+    text-shadow: #080706;
+}
+
+
+
 }
 
   /* .hero-image:after {
