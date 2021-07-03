@@ -148,6 +148,8 @@ body {
         height: auto;
         border-radius: 50%;
         border: 2px solid #D1B280;
+        margin-left: 30px;
+        margin-right: 80%;
     }
 
 
@@ -171,10 +173,11 @@ body {
     top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(253, 30, 67);
+    color: red;
     font-size: 40px;
     text-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
   }
+  
   
   .hero-text {
     text-align: center;
@@ -362,6 +365,16 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.ad1-p {
+    font-weight: 100;
+    font-size: 1.75rem;
+    letter-spacing: 0.10rem;
+    position: absolute;
+    margin-top: 150px;
+    margin-right: 70%;
+    align-self: left;
+    text-shadow: #080706;
+}
 }
 
   /* .hero-image:after {
@@ -502,6 +515,17 @@ p {
     font-weight: normal;
     font-style: normal;
  } 
+
+ .glacial{
+    font-family: 'GlacialIndifferenceRegular', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+ }
+
+ .deco {
+    font-family: 'DM Serif Text', serif;
+    font-weight: 600;
+ }
 
  .akapit {
     font-family: 'DM Serif Text', serif;
