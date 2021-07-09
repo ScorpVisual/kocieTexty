@@ -61,6 +61,7 @@ body {
 }
 
 
+
   /* .tab-content{
       padding: 20px;
   }
@@ -523,6 +524,10 @@ div .col-sm-3 {
 
 
 /* TEKST */
+
+.caslon {
+    font-family: 'adobe-caslon-pro', serif !important;
+}
 
 p {
     font-family: 'GlacialIndifferenceRegular', Arial, Helvetica, sans-serif;
