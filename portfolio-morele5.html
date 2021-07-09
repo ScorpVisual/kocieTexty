@@ -7,7 +7,6 @@
     <title>.kocieTexty Index</title>
 
             <!-- STYLES & SCRIPTS -->
-            <link rel="icon" type="image/png" href="img/brand/logoNoTextCircle.png"/>
 
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
             <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -32,13 +31,13 @@
             <a class="nav-link" href="index.html #">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.html #pokaz">Portfolio</a>
+            <a class="nav-link" href="index.html #portfolio">Portfolio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="index.html #cennik">Cennik</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="index.html #omnie">O mnie</a>
+              <a class="nav-link" href="index.html #about">O mnie</a>
             </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -54,7 +53,6 @@
       </div>
     </nav>
   
-  
       <!-- END NAVBAR -->
 
   <!-- INTRO TEXT -->
@@ -64,9 +62,8 @@
       <div class="media">
         <img class="mr-3 logoMedia" src="img/logoNoText.png" alt="logoMedia">
         <div class="media-body">
-          <h5 class="mt-0 akapitMniejszy">Opis kategorii: Gry Alexander</h5>
-          <hr>
-          <p class="pt-3 ml-5 justify-text-center">Artykuł zrealizowany dla empik.com <br> W tekście został zamieszczony opis gier planszowych polskiego producenta.</p>
+          <h5 class="mt-0 akapitMniejszy">Opis produktu - Odkurzacz pionowy Tefal TY9256</h5>
+          <p class="pt-3 ml-5 justify-text-center">Tekst zrealizowany dla morele.net <br> W tekście został zamieszczony opis odkurzacza pionowego marki Tefal.</p>
         </div>
       </div>
   </div>
@@ -89,14 +86,23 @@
     </ol>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img class="d-block w-100" src="img/portfolio/EMPIK_1a.jpg" alt="First slide">
+            <img class="d-block w-100" src="img/portfolio/MORELE_1.jpg" alt="First slide">
             <div class="carousel-caption d-none d-md-block">
-                < <h5>Gry Alexander - Empik.pl</h5>
-                <p>Tekst kategorii opisujący gry planszowe dla Empik.pl</p>
+                < <h5>Tefal - Morele.pl</h5>
+                <p>Tekst produktowy opisujący odkurzacz Tefal dla Morele.pl</p>
             </div>
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100" src="img/portfolio/EMPIK_2.jpg" alt="Second slide">
+            <img class="d-block w-100" src="img/portfolio/MORELE_2.jpg" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="img/portfolio/SAMSUNG_3.jpg" alt="Third slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="img/portfolio/SAMSUNG_4.jpg" alt="Fourth slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="img/portfolio/SAMSUNG_5.jpg" alt="Fifth slide">
         </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -116,57 +122,76 @@
 <div class="container box p-3 m-auto">
       <ul class="nav nav" id="myTab" role="tablist">
         <li class="nav-item">
-          <a class="nav-link active" id="home-tab" data-toggle="tab" href="#strona1" role="tab" aria-controls="home" aria-selected="true">Strona #1</a>
+          <a class="nav-link active" id="strona1-tab" data-toggle="tab" href="#strona1" role="tab" aria-controls="home" aria-selected="true">Strona #1</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" id="profile-tab" data-toggle="tab" href="#strona2" role="tab" aria-controls="profile" aria-selected="false">Strona #2</a>
+          <a class="nav-link" id="strona2-tab" data-toggle="tab" href="#strona2" role="tab" aria-controls="profile" aria-selected="false">Strona #2</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" id="contact-tab" data-toggle="tab" href="#strona3" role="tab" aria-controls="contact" aria-selected="false">Strona #3</a>
+          <a class="nav-link" id="strona3-tab" data-toggle="tab" href="#strona3" role="tab" aria-controls="contact" aria-selected="false">Strona #3</a>
         </li>
+        <li class="nav-item">
+            <a class="nav-link" id="strona4-tab" data-toggle="tab" href="#strona4" role="tab" aria-controls="contact" aria-selected="false">Strona #4</a>
+          </li>
       </ul>
       <hr>
       <div class="tab-content p-5" id="myTabContent">
             <div class="tab-pane fade show active" id="strona1" role="tabpanel" aria-labelledby="strona1-tab">
-              <h3 class="akapitMniejszy">Gry Alexander</h3>
-              <p>Alexander jest polską marką, istniejącą na rynku od ponad 40 lat. Niemal wszystkie komponenty gier i zabawek są produkowane w fabryce w Chwaszczynie. Gry planszowe tego producenta cieszą się ogromną popularnością, ponieważ zapewniają rozrywkę całej rodzinie, idealnie łącząc ją z edukacją, dzięki czemu każdy nudny dzień można wypełnić przygodami i zagadkami.
-                </p>
-            </div>
+              <h3 class="akapitMniejszy">Odkurzacz pionowy Tefal TY9256</h3>
+              <h3 class="akapitMniejszy">Odkurzacz pionowy Tefal TY9256 – model do zadań specjalnych</h3>
+              <p>Odkurzacze bezprzewodowe są dzisiaj jednymi z najwygodniejszych sprzętów, ułatwiających codzienne domowe porządki. Ze względu na nowoczesny design stają się niezwykłymi gadżetami. Odkurzacz pionowy Tefal TY9256 gwarantuje bezprzewodowe sprzątanie 3w1. Model ten został dodatkowo wyposażony w mniejszy, odłączany odkurzacz ręczny. Sprawdzi się doskonale podczas odkurzania trudno dostępnych miejsc, jak kąty, półki, schody, czy powierzchnie pod meblami. Również sprzątanie samochodu stanie się szybkie i łatwe.
+
+                Dodatkowym atutem tego modelu jest ssawka POWER SLIM VISION z elektroszczotką z podświetleniem LED – oświetlisz wszystkie zacienione miejsca i pozbędziesz się nawet najmniejszych okruszków, niewidocznych gołym okiem. Używając jej, bez problemu wyczyścisz każdy rodzaj powierzchni – podłogi ceramiczne, podłogi drewniane, a także dywany. Wystarczy jedno kliknięcie, a urządzenie zamieni się w narzędzie do zbierania kurzu na wysokości, np. z sufitu lub z wysokiej szafy.</p>
+                
+                <h3 class="akapitMniejszy">Bezprzewodowa wygoda</h3>
+            <p>Kolejnym sporym atutem tego modelu, jest wykorzystanie technologii cyklonowej. W miejscu worka została umieszczona komora zasysająca i wprowadzającą powietrze w ruch wirowy. Wówczas cząstki kurzu są oddzielane od przepływającego powietrza. Irytujący, nieustannie plączący się kabel, który często okazywał się za krótki, już nie będzie Twoją zmorą. Z odkurzaczem Tefal TY9256 dokładnie wysprzątasz każde pomieszczenie w domu. Żaden przewód nie będzie ograniczał Twoich ruchów. Po podłączeniu do ładowarki, zaledwie po 3 godzinach akumulator będzie naładowany do pełna i gotowy do działania.
+
+                Bateria litowo-jonowa o napięciu 21 V w standardowym trybie pracy pozwoli Ci odkurzać przez około 30 minut. W pozycji BOOST oferującej większą moc, uzyskasz 14 minut pracy. Moduł ręczny gwarantuje 20 minut pracy w trybie standardowym i 12 minut w trybie BOOST. Po jednym ładowaniu odkurzysz około 100m² powierzchni. Zatem urządzenie świetnie nadaje się do małego mieszkania lub jako dodatkowe narzędzie w dużym domu.</p>
+        </div>
             <div class="tab-pane fade" id="strona2" role="tabpanel" aria-labelledby="strona2-tab">
-              <h3 class="akapitMniejszy">Szeroki wybór gier i zabawek</h3>
-                <p>
-                    W ofercie znajdują się zarówno zabawki, jak i puzzle, które przynoszą ogrom radości podczas długich, jesiennych wieczorów, gdy pogoda nie pozwala na długie spacery. Ten sposób spędzania czasu sprzyja pogłębianiu więzi oraz zapewnia dobrą zabawę bez wychodzenia z domu. Gry Alexander pomagają w rozwoju logicznego myślenia oraz kreatywności u każdego dziecka. Poznawanie liter, wzorów, kolorów oraz liczb staje się prawdziwą przyjemnością, zatem przyswojenie podstawowej wiedzy jest zdecydowanie szybsze i prostsze.
-                </p>
-              <br>
-                <p>
-                    Asortyment został dostosowany do potrzeb każdego, nawet najbardziej wymagającego odbiorcy. Gry edukacyjne, strategiczne, logiczne, jak i zręcznościowe, przyczynią się rozwoju wielu umiejętności, jednocześnie zapewniając rozrywkę na najwyższym poziomie. Dzięki grom logopedycznym, oprócz wymowy, dzieci ćwiczą również pamięć wzrokową i słuchową oraz spostrzeganie, myślenie i koncentrację uwagi. Gry planszowe Alexander pomogą we wszechstronnym rozwoju najmłodszych członków rodziny. Edukacja już nie będzie wiązała się z nudą.
-                </p>
+              <h3 class="akapitMniejszy">Dodatki, które czynią sprzątanie efektywniejszym</h3>
+                <p>Chcąc dokładnie wysprzątać swój dom, potrzebujesz kilku niezbędnych akcesoriów, które ułatwią Ci dotarcie w każdy, nawet najmniejszy zakamarek. Wbudowane kółeczka pozwolą na komfortowe dostanie się do przestrzeni pod szafą lub pod kanapą. Urządzenie posiada dwie wbudowane ssawki. W komplecie z odkurzaczem Tefal TY9256 otrzymujesz także duży zestaw szczotek:</p>
+                <ul>
+                    <li><span class="font-weight-bold">do delikatnych materiałów:</span>będzie przydatna podczas czyszczenia powierzchni wrażliwych na zarysowania;</li>
+                    <li><span class="font-weight-bold">do tkanin:</span>pomoże w usuwaniu włosów, sierści i kurzu z tapicerki oraz odzieży;</li>
+                    <li><span class="font-weight-bold">do intensywnego czyszczenia:</span> przydatna podczas usuwania uporczywych zabrudzeń;</li>
+                    <li><span class="font-weight-bold">szczotka do kanap i mebli;</span></li>
+                    <li><span class="font-weight-bold">trójkątna szczotka.</span></li>
+                </ul>
+                <p>Przydatne są również takie dodatki jak:</p>
+                <ul>
+                    <li><span class="font-weight-bold">ssawka szczelinowa do wąskich miejsc;</span></li>
+                    <li><span class="font-weight-bold">rura teleskopowa do usuwania kurzu z trudno dostępnych miejsc.</span></li>
+                </ul>
+                <h3 class="akapitMniejszy">Odkurzanie na najwyższym poziomie</h3>
+                <p>Odkurzacz pionowy Tefal TY9256 został wyposażony w bezszczotkowy silnik POWER BOOST. Jego lekka i kompaktowa forma gwarantuje optymalną moc czyszczenia. Naścienna stacja do ładowania zapewnia krótki czas ładowania, zatem możesz korzystać ze sprzętu, kiedy tylko potrzebujesz. Inną zaletą tego urządzenia jest pojemnik na kurz, którego pojemność wynosi 0.4 l. Wystarczy jedno kliknięcie, aby go wyjąć i włożyć. Dzięki temu szybko pozbędziesz się zalegających w nim kurzu, roztoczy oraz nieczystości. Uciążliwa wymiana worka już nigdy więcej nie będzie Twoim zmartwieniem. Niewielka waga, wynosząca 2,8 kg oraz kompaktowe wymiary pozwolą na wygodne przechowywanie odkurzacza. W szafie lub w schowku nie zajmie on zbyt wiele miejsca, zwłaszcza że stację dokującą możesz przymocować do ściany.</p>
             </div>
             <div class="tab-pane fade" id="strona3" role="tabpanel" aria-labelledby="strona3-tab">
-              <h3 class="akapitMniejszy">Troska o edukację, zdrowie i rodzinę</h3>
-                <p>Gry planszowe mają zbawienny wpływ na mózg, ponieważ posiadają elementy strategiczne i taktyczne, które wymagają dokonywania obliczonych wyborów. Oznacza to, że dzięki produktom firmy Alexander możecie zadbać nie tylko o edukację swoich pociech, ale również o ich zdrowy rozwój fizyczny, jak i psychiczny. Gry edukacyjne są bardzo skuteczne w zakresie rozwiązywania problemów oraz podejmowania decyzji.
-                </p>         
-                <br>
-              <p>
-                Gry Alexander są także pomocne w nawiązywaniu nowych przyjaźni i w rozwijaniu wielu zainteresowań. Chińczyk, warcaby, sudoku, to jedne z najpopularniejszych rozrywek, które znają wszyscy bez względu na wiek. Oznacza to, że gry planszowe łączą wszystkie pokolenia, a także pozwalają na oderwanie się od świata nowoczesnych technologii i skupienie na tym, co najważniejsze, czyli budowaniu pozytywnych relacji z bliskimi.
-              </p>
-              <br>
+              <h3 class="akapitMniejszy">Odkurzacz pionowy Tefal TY9256 – niezawodny pomocnik podczas sprzątania</h3>
+                <p>Odkurzacz Tefal jest dość cichy, poziom hałasu podczas pracy wynosi 85 dB., ponieważ producent zastosował w urządzeniu wielowarstwowy filtr. Kiedy ulegnie zanieczyszczeniu, nie musisz wymieniać go na nowy, ponieważ jest zmywalny – jednak po umyciu należy go dokładnie osuszyć. Dzięki temu narzędziu sprzątanie sierści domowych pupili, rozsypanej kawy lub mąki może stać się przyjemnością. Mobilność jest jedną z najważniejszych cech odkurzacza Tefal TY9256, która zapewni Ci niesamowity komfort podczas domowych obowiązków.</p>
             </div>
+            <div class="tab-pane fade" id="strona4" role="tabpanel" aria-labelledby="strona4-tab">
+                <h3 class="akapitMniejszy">Do usunięcia</h3>
+
+                    <p>Do usunięcia</p></div>
         </div>
 </div>
 
-   <!-- TEKST REKLAMOWY #1 -->
-   <section id="ad1-section" class="text-light text-center">
-    <div id="ad1-section-background">
-      <div class="d-flex flex-column align-items-center justify-content-center ad1-vertical-align">
-          <h1 class="text-uppercase ad1-heading align-self-center">Skorzystaj z naszych usług!</h1>
-          <hr>
-          <p class="pt-3 ml-5 text-center ad1-p">Spraw aby Twoja strona została <span class="aw-ending">zaczarowana</span> <br> i przepełniła klienta entuzjazmem.</p>
-          <br>
-          <h4 class="text-center ad1-check">Sprawdź nasze teksty klikając kartę poniżej!</h4>
+
+      <!-- TEKST REKLAMOWY -->
+
+      <div class="container-lg box p-3 m-5 box">
+        <div id="home" class="jumbotron box">
+            <div class="d-flex justify-content-center">
+            <h1 class="text-center akapit">Skorzystaj z naszych usług!</h1>
+        </div>
+            <hr>
+            <p class="pt-3 ml-5 text-center">Zgłoś się do nas, żebyś piękne teksty miau!</p>
+            <br>
+            <h4 class="text-center">Sprawdź nasze teksty, klikając kartę poniżej!</h4>
+
+          </div>
       </div>
-    </div>
-  </section>
       
 
 <!-- CARDS -->

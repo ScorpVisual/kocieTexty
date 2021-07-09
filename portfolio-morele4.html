@@ -7,7 +7,6 @@
     <title>.kocieTexty Index</title>
 
             <!-- STYLES & SCRIPTS -->
-            <link rel="icon" type="image/png" href="img/brand/logoNoTextCircle.png"/>
 
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
             <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -32,13 +31,13 @@
             <a class="nav-link" href="index.html #">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.html #pokaz">Portfolio</a>
+            <a class="nav-link" href="index.html #portfolio">Portfolio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="index.html #cennik">Cennik</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="index.html #omnie">O mnie</a>
+              <a class="nav-link" href="index.html #about">O mnie</a>
             </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -54,7 +53,6 @@
       </div>
     </nav>
   
-  
       <!-- END NAVBAR -->
 
   <!-- INTRO TEXT -->
@@ -64,9 +62,8 @@
       <div class="media">
         <img class="mr-3 logoMedia" src="img/logoNoText.png" alt="logoMedia">
         <div class="media-body">
-          <h5 class="mt-0 akapitMniejszy">Opis kategorii: Gry Alexander</h5>
-          <hr>
-          <p class="pt-3 ml-5 justify-text-center">Artykuł zrealizowany dla empik.com <br> W tekście został zamieszczony opis gier planszowych polskiego producenta.</p>
+          <h5 class="mt-0 akapitMniejszy">Opis produktu - Mikrofon SPC Gear SM950 (SPG053)</h5>
+          <p class="pt-3 ml-5 justify-text-center">Artykuł zrealizowany dla morele.net <br> Opis dotyczy mikrofonu marki SPC Gear.</p>
         </div>
       </div>
   </div>
@@ -89,14 +86,23 @@
     </ol>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img class="d-block w-100" src="img/portfolio/EMPIK_1a.jpg" alt="First slide">
+            <img class="d-block w-100" src="img/portfolio/MORELE_1.jpg" alt="First slide">
             <div class="carousel-caption d-none d-md-block">
-                < <h5>Gry Alexander - Empik.pl</h5>
-                <p>Tekst kategorii opisujący gry planszowe dla Empik.pl</p>
+                < <h5>Samsung - Morele.pl</h5>
+                <p>Tekst produktowy opisujący telefon Samsung dla Morele.pl</p>
             </div>
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100" src="img/portfolio/EMPIK_2.jpg" alt="Second slide">
+            <img class="d-block w-100" src="img/portfolio/MORELE_2.jpg" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="img/portfolio/SAMSUNG_3.jpg" alt="Third slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="img/portfolio/SAMSUNG_4.jpg" alt="Fourth slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="img/portfolio/SAMSUNG_5.jpg" alt="Fifth slide">
         </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -116,57 +122,67 @@
 <div class="container box p-3 m-auto">
       <ul class="nav nav" id="myTab" role="tablist">
         <li class="nav-item">
-          <a class="nav-link active" id="home-tab" data-toggle="tab" href="#strona1" role="tab" aria-controls="home" aria-selected="true">Strona #1</a>
+          <a class="nav-link active" id="strona1-tab" data-toggle="tab" href="#strona1" role="tab" aria-controls="home" aria-selected="true">Strona #1</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" id="profile-tab" data-toggle="tab" href="#strona2" role="tab" aria-controls="profile" aria-selected="false">Strona #2</a>
+          <a class="nav-link" id="strona2-tab" data-toggle="tab" href="#strona2" role="tab" aria-controls="profile" aria-selected="false">Strona #2</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" id="contact-tab" data-toggle="tab" href="#strona3" role="tab" aria-controls="contact" aria-selected="false">Strona #3</a>
+          <a class="nav-link" id="strona3-tab" data-toggle="tab" href="#strona3" role="tab" aria-controls="contact" aria-selected="false">Strona #3</a>
         </li>
+        <li class="nav-item">
+            <a class="nav-link" id="strona4-tab" data-toggle="tab" href="#strona4" role="tab" aria-controls="contact" aria-selected="false">Strona #4</a>
+          </li>
       </ul>
       <hr>
       <div class="tab-content p-5" id="myTabContent">
             <div class="tab-pane fade show active" id="strona1" role="tabpanel" aria-labelledby="strona1-tab">
-              <h3 class="akapitMniejszy">Gry Alexander</h3>
-              <p>Alexander jest polską marką, istniejącą na rynku od ponad 40 lat. Niemal wszystkie komponenty gier i zabawek są produkowane w fabryce w Chwaszczynie. Gry planszowe tego producenta cieszą się ogromną popularnością, ponieważ zapewniają rozrywkę całej rodzinie, idealnie łącząc ją z edukacją, dzięki czemu każdy nudny dzień można wypełnić przygodami i zagadkami.
-                </p>
-            </div>
+              <h3 class="akapitMniejszy">Mikrofon SPC Gear SM950 (SPG053)</h3>
+              <h3 class="akapitMniejszy">Dźwięk klasy premium</h3>
+              <p>To sprzęt wysokiej klasy o bardzo szerokim zastosowaniu. Kardioidalność zapewnia wygłuszenie niepożądanych dźwięków z otoczenia. Natomiast komponenty dobrej jakości, takie jak przetwornik dźwięku, chipset USB i wewnętrzne filtry, dadzą możliwość uzyskania ciepłego, radiowego brzmienia. Do zestawu dołączono również dodatkowe akcesoria: regulowane i wszechstronne ramię, POP filtr, długi przewód USB oraz koszyk antywstrząsowy. Każde z nich z pewnością przyda się streamerowi, graczowi oraz muzykowi.
+                Nie potrzebujesz dodatkowego oprogramowania, ponieważ mikrofon działa na zasadzie Plug&Play. Komputer sam wykryje nowo podpięte urządzenie. Zyskujesz kompatybilność z takimi aplikacjami, jak komunikatory internetowe, platformy gamingowe czy też zaawansowane cyfrowe stacje robocze do obróbki dźwięku. Świetnym rozwiązaniem jest również dodatkowy przycisk do wyciszania, który został umieszczony na obudowie urządzenia. Dźwięk zbierany jest głównie z przodu mikrofonu, dlatego cechuje go naprawdę duża głębia i jednoczesny brak szumów. Większość zakłóceń jest automatycznie eliminowana zaraz po ich wykryciu. Co istotne, podczas nagrań nie występuje również efekt sprzężenia zwrotnego.
+                
+                <h3 class="akapitMniejszy">Niezwykły design i wytrzymała konstrukcja</h3>
+            </ul>
+            <p>Mikrofon został wykonany z ogromną starannością, z materiałów o bardzo wysokiej jakości.  Obudowę w całości wytworzono z metalu, co sprawia, że jest ona odporna na uszkodzenia i długotrwałe użytkowanie. Wewnętrzne komponenty urządzenia, takie jak membrana i elektronika, również chronione są przez metalową, sztywną siatkę oraz metalowe wzmocnienie. Finalnym efektem tych działań jest elegancki design oraz wysoki standard nagrań. Zatem oprócz niezawodnego sprzętu zyskujesz także niepowtarzalny gadżet o atrakcyjnym wyglądzie, który staje się idealną ozdobą Twojego biurka.
+            </p>
+        </div>
             <div class="tab-pane fade" id="strona2" role="tabpanel" aria-labelledby="strona2-tab">
-              <h3 class="akapitMniejszy">Szeroki wybór gier i zabawek</h3>
-                <p>
-                    W ofercie znajdują się zarówno zabawki, jak i puzzle, które przynoszą ogrom radości podczas długich, jesiennych wieczorów, gdy pogoda nie pozwala na długie spacery. Ten sposób spędzania czasu sprzyja pogłębianiu więzi oraz zapewnia dobrą zabawę bez wychodzenia z domu. Gry Alexander pomagają w rozwoju logicznego myślenia oraz kreatywności u każdego dziecka. Poznawanie liter, wzorów, kolorów oraz liczb staje się prawdziwą przyjemnością, zatem przyswojenie podstawowej wiedzy jest zdecydowanie szybsze i prostsze.
-                </p>
-              <br>
-                <p>
-                    Asortyment został dostosowany do potrzeb każdego, nawet najbardziej wymagającego odbiorcy. Gry edukacyjne, strategiczne, logiczne, jak i zręcznościowe, przyczynią się rozwoju wielu umiejętności, jednocześnie zapewniając rozrywkę na najwyższym poziomie. Dzięki grom logopedycznym, oprócz wymowy, dzieci ćwiczą również pamięć wzrokową i słuchową oraz spostrzeganie, myślenie i koncentrację uwagi. Gry planszowe Alexander pomogą we wszechstronnym rozwoju najmłodszych członków rodziny. Edukacja już nie będzie wiązała się z nudą.
-                </p>
+              <h3 class="akapitMniejszy">Regulowane ramię</h3>
+                <p>Ten mikrofon w zestawie posiada obrotowe ramię, regulowane w bardzo szerokim zakresie. Pozwoli Ci ono umieścić mikrofon w dowolnie wybranym przez Ciebie miejscu, np. na skraju biurka. Sprzęt bez najmniejszego problemu umieścisz nad, obok lub przed monitorem. Aby nie utracić eleganckiego designu, kabel USB o długości 2,9 m, pozwalający na połączenie mikrofonu z komputerem, został wpuszczony wewnątrz ramienia.</p>
+                <h3 class="akapitMniejszy">POP Filtr</h3>
+                <p>Sprzęt ten zapewnia czyste brzmienie w każdych warunkach. Niechciane dźwięki, które powiązane są z poruszającym się powietrzem, oddechem, czy też wypowiadaniem spółgłosek wybuchowych, (b, p, d) wyeliminuje dołączony do zestawu filtr POP. Zazwyczaj używany jest on podczas studyjnych nagrań, chroni także przed zabrudzeniami. Z tym urządzeniem podczas nagrywania utworów lub podcastów, możesz poczuć się jak prawdziwy profesjonalista. 
+ 
+                Nieważne czy streamujesz emocjonującą rozgrywkę, nagrywasz kolejny energetyczny kawałek, czy też prowadzisz codziennego vloga, ten mikrofon pozwoli Ci na uzyskanie niebywałych efektów. Nawet najcichsze dźwięki dotrą do Twoich słuchaczy, którzy z pewnością zachwycą się niepowtarzalną jakością Twoich nagrań.</p>
             </div>
             <div class="tab-pane fade" id="strona3" role="tabpanel" aria-labelledby="strona3-tab">
-              <h3 class="akapitMniejszy">Troska o edukację, zdrowie i rodzinę</h3>
-                <p>Gry planszowe mają zbawienny wpływ na mózg, ponieważ posiadają elementy strategiczne i taktyczne, które wymagają dokonywania obliczonych wyborów. Oznacza to, że dzięki produktom firmy Alexander możecie zadbać nie tylko o edukację swoich pociech, ale również o ich zdrowy rozwój fizyczny, jak i psychiczny. Gry edukacyjne są bardzo skuteczne w zakresie rozwiązywania problemów oraz podejmowania decyzji.
-                </p>         
-                <br>
-              <p>
-                Gry Alexander są także pomocne w nawiązywaniu nowych przyjaźni i w rozwijaniu wielu zainteresowań. Chińczyk, warcaby, sudoku, to jedne z najpopularniejszych rozrywek, które znają wszyscy bez względu na wiek. Oznacza to, że gry planszowe łączą wszystkie pokolenia, a także pozwalają na oderwanie się od świata nowoczesnych technologii i skupienie na tym, co najważniejsze, czyli budowaniu pozytywnych relacji z bliskimi.
-              </p>
-              <br>
+              <h3 class="akapitMniejszy">Koszyk antywstrząsowy</h3>
+                <p>Mikrofon to bardzo czułe urządzenie, wystarczy najmniejsze drgnięcie, aby zakłócić jego działanie. Jednak zamontowany w tym urządzeniu specjalny koszyk antywstrząsowy z miękką gumową powłoką, wyeliminuje takie zakłócenia jak pisanie na klawiaturze czy stukanie w blat biurka. Już nic nie stanie Ci na przeszkodzie, aby tworzyć nagrania świetnej jakości i stać się niezapomnianym muzykiem, streamerem lub youtuberem.</p>
+                <h3 class="akapitMniejszy">Jakość, która Cię zachwyci</h3>
+                <p>Niski poziom szumów własnych oraz brak efektu sprzężenia zwrotnego oferuje rejestrowanie dźwięków na profesjonalnym poziomie. Za poprawne przenoszenie przechwytywanego audio o wysokiej jakości do komputera, odpowiedzialny jest chipset USB, wyprodukowany przez renomowaną markę Cmedia. To właśnie dzięki niemu zintegrowany układ dźwiękowy komputera lub karta nie mają wpływu na wysoką jakość rejestrowanego nagrania.</p>
             </div>
+            <div class="tab-pane fade" id="strona4" role="tabpanel" aria-labelledby="strona4-tab">
+                <h3 class="akapitMniejszy">Do usunięcia</h3>
+
+                    <p>Do usunięcia</p></div>
         </div>
 </div>
 
-   <!-- TEKST REKLAMOWY #1 -->
-   <section id="ad1-section" class="text-light text-center">
-    <div id="ad1-section-background">
-      <div class="d-flex flex-column align-items-center justify-content-center ad1-vertical-align">
-          <h1 class="text-uppercase ad1-heading align-self-center">Skorzystaj z naszych usług!</h1>
-          <hr>
-          <p class="pt-3 ml-5 text-center ad1-p">Spraw aby Twoja strona została <span class="aw-ending">zaczarowana</span> <br> i przepełniła klienta entuzjazmem.</p>
-          <br>
-          <h4 class="text-center ad1-check">Sprawdź nasze teksty klikając kartę poniżej!</h4>
+
+      <!-- TEKST REKLAMOWY -->
+
+      <div class="container-lg box p-3 m-5 box">
+        <div id="home" class="jumbotron box">
+            <div class="d-flex justify-content-center">
+            <h1 class="text-center akapit">Skorzystaj z naszych usług!</h1>
+        </div>
+            <hr>
+            <p class="pt-3 ml-5 text-center">Zgłoś się do nas, żebyś piękne teksty miau!</p>
+            <br>
+            <h4 class="text-center">Sprawdź nasze teksty, klikając kartę poniżej!</h4>
+
+          </div>
       </div>
-    </div>
-  </section>
       
 
 <!-- CARDS -->
