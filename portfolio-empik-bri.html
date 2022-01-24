@@ -7,6 +7,7 @@
     <title>.kocieTexty Index</title>
 
             <!-- STYLES & SCRIPTS -->
+            <link rel="icon" type="image/png" href="img/brand/logoNoTextCircle.png"/>
 
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
             <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -31,13 +32,13 @@
             <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.html#portfolio">Portfolio</a>
+            <a class="nav-link" href="index.html#pokaz">Portfolio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="index.html#cennik">Cennik</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="index.html#about">O mnie</a>
+              <a class="nav-link" href="index.html#omnie">O mnie</a>
             </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -53,6 +54,7 @@
       </div>
     </nav>
   
+  
       <!-- END NAVBAR -->
 
   <!-- INTRO TEXT -->
@@ -62,8 +64,10 @@
       <div class="media">
         <img class="mr-3 logoMedia" src="img/logoNoText.png" alt="logoMedia">
         <div class="media-body">
-          <h5 class="mt-0 akapitMniejszy">Opis produktu: Samsung S20 FE</h5>
-          <p class="pt-3 ml-5 justify-text-center">Artykuł zrealizowany dla morele.net <br> W artykule została zamieszczona recenzja smartfonu Samsung S20 FE.</p>
+          <h5 class="mt-0 akapitMniejszy">Opis marki: Brit</h5>
+          <hr>
+          <p class="pt-3 ml-5 justify-text-center">Tekst zrealizowany dla <span class="font-weight-bold">empik.com</span><br>
+            W opisie została przedstawiona czeska marka karm dla zwierząt - Brit.</p>
         </div>
       </div>
   </div>
@@ -79,31 +83,23 @@
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        <!-- <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li> -->
 
     </ol>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img class="d-block w-100" src="img/portfolio/SAMSUNG_1.jpg" alt="First slide">
+            <img class="d-block w-100" src="img/portfolio/britt_1.png" alt="First slide">
             <div class="carousel-caption d-none d-md-block">
-                < <h5>Samsung - Morele.pl</h5>
-                <p>Tekst produktowy opisujący telefon Samsung dla Morele.pl</p>
             </div>
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100" src="img/portfolio/SAMSUNG_2.jpg" alt="Second slide">
+            <img class="d-block w-100" src="img/portfolio/britt_2.png" alt="Second slide">
         </div>
-        <div class="carousel-item">
-            <img class="d-block w-100" src="img/portfolio/SAMSUNG_3.jpg" alt="Third slide">
-        </div>
-        <div class="carousel-item">
-            <img class="d-block w-100" src="img/portfolio/SAMSUNG_4.jpg" alt="Fourth slide">
-        </div>
-        <div class="carousel-item">
-            <img class="d-block w-100" src="img/portfolio/SAMSUNG_5.jpg" alt="Fifth slide">
-        </div>
+        <!-- <div class="carousel-item">
+            <img class="d-block w-100" src="img/portfolio/boginie_3.png" alt="Third slide">
+        </div> -->
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -122,83 +118,59 @@
 <div class="container box p-3 m-auto">
       <ul class="nav nav" id="myTab" role="tablist">
         <li class="nav-item">
-          <a class="nav-link active" id="strona1-tab" data-toggle="tab" href="#strona1" role="tab" aria-controls="home" aria-selected="true">Strona #1</a>
+          <a class="nav-link active" id="home-tab" data-toggle="tab" href="#strona1" role="tab" aria-controls="home" aria-selected="true">Strona #1</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" id="strona2-tab" data-toggle="tab" href="#strona2" role="tab" aria-controls="profile" aria-selected="false">Strona #2</a>
+          <a class="nav-link" id="profile-tab" data-toggle="tab" href="#strona2" role="tab" aria-controls="profile" aria-selected="false">Strona #2</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" id="strona3-tab" data-toggle="tab" href="#strona3" role="tab" aria-controls="contact" aria-selected="false">Strona #3</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" id="strona4-tab" data-toggle="tab" href="#strona4" role="tab" aria-controls="contact" aria-selected="false">Strona #4</a>
-          </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link" id="contact-tab" data-toggle="tab" href="#strona3" role="tab" aria-controls="contact" aria-selected="false">Strona #3</a>
+        </li> -->
       </ul>
       <hr>
       <div class="tab-content p-5" id="myTabContent">
             <div class="tab-pane fade show active" id="strona1" role="tabpanel" aria-labelledby="strona1-tab">
-              <h3 class="akapitMniejszy">Recenzja Samsung Galaxy S20 FE</h3>
-              <p>Nowy Galaxy S20 działa podobnie jak najnowsze flagowce, jednak jest od nich zdecydowanie tańszy.</p>
-              <h3 class="akapitMniejszy">Specyfikacja techniczna Samsung Galaxy S20 FE</h3>
-              <p>Co kryje w sobie nowy model Samsunga? W Polsce Galaxy S20 FE dostępny jest w dwóch wariantach. Pierwszy z nich ma do zaoferowania modem 4G, procesor Exynos 990 oraz 6 GB pamięci RAM i 128 GB pamięci wewnętrznej lub 8 GB RAM i 256 GB pamięci wewnętrznej. Wybierając drugi wariant, zyskujesz modem 5G, procesor Snapdragon 865 i takie same warianty pamięci RAM i pamięci wewnętrznej, jak w pierwszej wersji tego modelu. Pamięć można rozszerzyć kartą microSD o pojemności do 1 TB. Ważnym udogodnieniem jest optyczny czytnik linii papilarnych, który został wbudowany w ekran.
-                <br>
-                W Galaxy S20 znajdziesz ekran o przekątnej wynoszącej 6,5 cala. Został on wykonany w technologii Super AMOLED, wyświetlającej obraz o rozdzielczości FHD+ z częstotliwością odświeżania 120 Hz. Z tyłu urządzenia umieszczono 3 aparaty:
-            </p>
-            <ul> 
-                <li>ultraszerokokątny - 12MP, F/2.2</li>
-                <li>szerokokątny 12MP, F/1.8 z optyczną stabilizacją Dual Pixel</li>
-                <li>teleobiektyw 8MP z optyczną stabilizacją i światłem F/2.4</li>
-            </ul>
-            <p>Z przodu znajduje się aparat o rozdzielczości 32 MP oraz świetle F/2.2, który świetnie sprawdzi się podczas robienia tzw. selfie.</p>
-            <p>Telefon Samsung s20 został również wyposażony w akumulator o pojemności 4500 mAh, który powinien wystarczyć na cały dzień. Ponadto, dzięki funkcji Wireless PowerShare, możesz naładować inne sprzęty od Samsunga, jak słuchawki, smartwatche i smartfony. SGS20FE obsługuje również szybkie ładowanie po kablu z mocą do 25W. Oznacza to, że bateria w pół godziny naładuje się do 50%. Jednak w pudełku z Fan Edition taka ładowarka nie jest dostępna i niestety trzeba ją osobno dokupić. Ładowanie bezprzewodowe gwarantuje moc wynoszącą 15 W.</p> 
-            <p>
-                W Galaxy S20 głośniki stereo oraz dźwięk słuchawek wspierane są przez AKG. Natomiast dźwięk przestrzenny możesz uzyskać dzięki technologiom Dolby Atmos, wliczając w to również Dolby Digital oraz Dolby Digital Plus. Smartfon ten zapewnia odtwarzanie wielu formatów dźwięku, m.in. MP3, M4A, 3GA, AAC, OGG, OGA, WAV, WMA, AMR, AWB. Bezprzewodowe połączenie z telewizorem możesz uzyskać dzięki Smart View, a przewodowe dzięki obsłudze DisplayPortu przez USB typu C. Telefon obsługuje też wejście wideo po podłączeniu przez adapter HDMI.</p>    
-        </div>
-            <div class="tab-pane fade" id="strona2" role="tabpanel" aria-labelledby="strona2-tab">
-              <h3 class="akapitMniejszy">Jak wygląda Samsung Galaxy S20 FE?</h3>
-                <p>
-                    Warto również zwrócić uwagę na fakt, że smartfon ten został wytworzony z jednego bloku aluminium i jest typowym przedstawicielem serii Galaxy. Obudowa urządzenia nie została pokryta szkłem. Szklane plecki wydają się zazwyczaj bardziej estetyczne, jednak ich kruchość czasami bywa sporą wadą. Zatem brak szkła można w tym przypadku uznać za spory plus, zwłaszcza że plastikowe plecki Galaxy S20 FE są bardzo przyjemne w dotyku. Producent zrezygnował również z zaokrąglonego ekranu, bowiem wiele osób nie było zwolennikami tego rozwiązania.                </p>
+              <h3 class="akapitMniejszy">Brit</h3>
+              <p>
+                Marka Brit powstała w Czechach i istnieje na rynku już od 1999 roku. Należy do czołowych europejskich producentów karm dla zwierząt domowych. Produkty tej firmy można znaleźć w prawie siedemdziesięciu krajach na całym świecie, w których cieszą się zaufaniem wielu klientów. Wszystkie zakłady produkcyjne zostały wyposażone w najnowocześniejsze technologie, dlatego karmy Brit, przekąski i suplementy diety, to gwarancja jakości premium oraz superpremium.
+              </p>
               <br>
+              <!-- <h3 class="akapitMniejszy">Jedna aplikacja, wiele możliwości</h3> -->
+              <p>
+                Szeroki wybór odpowiednio skomponowanych karm Brit Care Junior i Brit Care Senior zapewni właściwą dietę zarówno młodszym, jak i starszym zwierzętom. Karmy dla psów oraz kotów Brit Care i Brit Care Premium są polecane przez najlepszych specjalistów z dziedziny żywienia zwierząt. Wspierają prawidłowy rozwój domowych pupili oraz wspomagają profilaktykę. Chronią również przed groźnymi chorobami oraz zapobiegają powstawaniu alergii. Są to pełnowartościowe produkty skierowane do wrażliwych zwierząt.  
+              </p>
+            </div>
+            <div class="tab-pane fade" id="strona2" role="tabpanel" aria-labelledby="strona2-tab">
+              <h3 class="akapitMniejszy">Karmy bogate w witaminy i minerały</h3>
                 <p>
-                    Obudowę Galaxy S20 wykonano z plastiku, dostępna jest w kilku wersjach kolorystycznych: czerwonej, lawendowej, pomarańczowej, miętowej, niebieskiej i białej. Ramki otaczające ekran są dość cienkie, aparat znajduje się w okrągłym otworze u góry. Wyświetlacz jest płaski, zatem wybór szkła zabezpieczającego ekran nie przysporzy problemu. Ponadto, ekran cechuje się jasnością, ostrością oraz nasyconymi kolorami. Oglądanie filmów, granie, czy przeglądanie social mediów jest intuicyjne i wygodne. W trakcie grania czułość rozpoznawania dotyku wynosi 240 Hz.
+                    Karmy Brit powstają w oparciu o oryginalną recepturę, docenianą zarówno przez hodowców, jak i weterynarzy. Regulują pracę narządów wewnętrznych, dbając tym samym o pozytywny nastrój czworonogów. Produkty te pozbawione są toksycznych składników oraz konserwantów i spełniają wszystkie rygorystyczne normy oraz standardy. Karmy Brit nie zawierają zbóż ani kurzego białka oraz tłuszczu, aby zapobiec powstawaniu otyłości u zwierząt. Wysoka zawartość żywych kultur bakterii probiotycznych poprawia ogólny stan zdrowia, stabilizując florę bakteryjną jelit i proces trawienia.  
                 </p>
-                <p>W obudowie zostały umieszczone dwa głośniki stereo oraz wejście USB-C. Niestety Galaxy S2o FE nie posiada klasycznego wejścia słuchawkowego mini Jack 3,5 mm, co przez wiele osób może zostać uznane za spory minus tego sprzętu. Oznacza to, że w tym przypadku warto postawić na słuchawki bezprzewodowe lub podłączyć je przez wejście USB-C. Co istotne, konstrukcja urządzenia jest wodoszczelna (IP68), więc nie musisz obawiać się, że po kontakcie z wodą telefon przestanie działać. Należy jednak ostrożnie z niego korzystać podczas ulewnych deszczy.
-
+              <br>
+              <!-- <h3 class="akapitMniejszy">Troska o domowych pupili</h3> -->
+                <p>
+                    Karmy Brit Adult oraz Brit Care Puppy, tak jak i inne serie karm tej marki, są bogate w kwasy omega-3, DHA i EPA, które posiadają działanie przeciwzapalne oraz stymulują prawidłowe działanie bariery skórnej. Znajdują się w nich wyłącznie wyselekcjonowane kawałki mięsa. Produkty z łososiem wspierają prawidłową pracę układu naczyniowo-sercowego oraz przyczyniają się do poprawy stanu skóry i sierści. Karmy z jagnięciną zapewniają wsparcie dla kości oraz stawów, aby organizm pupila był silny i zdrowy. 
+                </p>
+                <br>
+                <p>
+                    Karmy Brit dla psa w składzie zawierają również witaminę C oraz inulinę, aby podnieść poziom odporności. Ostropest plamisty odpowiada zaś za sprawne działanie metabolizmu oraz regenerację wątroby. 
+                </p>
+                <br>
+                <p>
+                    Karmy Brit dla kota zostały dopasowane do upodobań tych zwierząt oraz do ich konkretnych etapów życia. Linia produktów dla kotów wymagających jest w szczególności skierowana do najbardziej wybrednych czworonogów. 
                 </p>
             </div>
-            <div class="tab-pane fade" id="strona3" role="tabpanel" aria-labelledby="strona3-tab">
-              <h3 class="akapitMniejszy">Jaka jest wydajność Samsung Galaxy S20 FE?</h3>
-                <p>Poza nowoczesną łącznością komórkową 5H (sub-6 Ghz) Samsung Galaxy s20 FE ma do zaoferowania szybkie Wi-Fi (ax), hybrydowy dual SIM, NFC do płatności zbliżeniowych, DeX do wyświetlania systemu w trybie stacjonarnym na telewizorze lub monitorze oraz Bluetooth 5.0. Podstawowy aparat posiada również duży sensor, który całkiem dobrze spisuje się, gdy jest ciemno. Telefon został również wyposażony w wieloklatkowy tryb nocny. Tym sprzętem możesz także nagrywać filmy 4K 60 klatek na sekundę, zatem jest to świetny smartfon do Instagrama.</p>         
+            <!-- <div class="tab-pane fade" id="strona3" role="tabpanel" aria-labelledby="strona3-tab">
+              <h3 class="akapitMniejszy">Troska o edukację, zdrowie i rodzinę</h3>
+                <p>Gry planszowe mają zbawienny wpływ na mózg, ponieważ posiadają elementy strategiczne i taktyczne, które wymagają dokonywania obliczonych wyborów. Oznacza to, że dzięki produktom firmy Alexander możecie zadbać nie tylko o edukację swoich pociech, ale również o ich zdrowy rozwój fizyczny, jak i psychiczny. Gry edukacyjne są bardzo skuteczne w zakresie rozwiązywania problemów oraz podejmowania decyzji.
+                </p>         
                 <br>
               <p>
-                Teleobiektyw w Galaxy S20 Pro zasługuje na spore wyróżnienie z uwagi na fakt, iż posiada bardzo duży zoom optyczny oraz cyfrowy (30x Space Zoom). Niestety z tego względu może on powodować pogorszenie jakości obrazu. Jest on także wspomagany algorytmem sztucznej inteligencji, której główne zadanie to dodatkowe wyostrzenie lub wyrysowanie ostrości do utrwalanego kadru. Aparat został również wyposażony w optyczną stabilizację obrazu (OIS) oraz Tracking AF. Ponadto telefon podpowie Ci, które ujęcie będzie najlepsze.              </p>
-              <p>
-                Częstotliwość odświeżania 120 Hz ma bezpośredni wpływ na płynność animacji oraz zmniejszenie zmęczenia oczu podczas wielogodzinnego korzystania ze smartfonu. Pozwala ona również na uzyskanie nawet 120 klatek na sekundę w grach, które obsługują taką płynność. Osiągnięcie 100 herców w Galaxy S20 nie jest trudne, ponieważ nowoczesne procesory Snapdragon 865 w wersji 5G, jak i Exynos 990 w wersji 4G LTE wraz z Androidem 10 na pokładzie, gwarantują doskonałą wydajność.
+                Gry Alexander są także pomocne w nawiązywaniu nowych przyjaźni i w rozwijaniu wielu zainteresowań. Chińczyk, warcaby, sudoku, to jedne z najpopularniejszych rozrywek, które znają wszyscy bez względu na wiek. Oznacza to, że gry planszowe łączą wszystkie pokolenia, a także pozwalają na oderwanie się od świata nowoczesnych technologii i skupienie na tym, co najważniejsze, czyli budowaniu pozytywnych relacji z bliskimi.
               </p>
-              <p>
-                Z tym sprzętem zyskujesz dostęp do Xbox Game Pass Ultimate, który z szybką łącznością komórkową oraz Wi-Fi zapewni Ci wyjątkowe wrażenia podczas grania w gry o jakości konsolowej. Jakość nagrywania została ulepszona dzięki mikrofonowi HIGH AOP, który minimalizuje zniekształcenia w głośnym otoczeniu. Dodatkowo dzięki funkcji Dual Audio do Galaxy S20 FE możesz podłączyć dwa urządzenia Bluetooth i odtwarzać dźwięk na obydwu urządzeniach jednocześnie. Skalowany kodek zapewnia ulepszone połączenie w warunkach zakłóceń częstotliwości radiowej.
-              </p>
-                <br>
-            </div>
-            <div class="tab-pane fade" id="strona4" role="tabpanel" aria-labelledby="strona4-tab">
-                <h3 class="akapitMniejszy">Ile kosztuje Samsung Galaxy S20 FE?</h3>
-<p>Smartfony towarzyszy Ci na co dzień, więc jego cena jest jednym z najistotniejszych elementów. Samsung Galaxy S20 FE może konkurować z najnowszymi flagowcami. Kupując ten sprzęt, zyskujesz wydajność telefonów klasy premium w zdecydowanie niższej cenie. Smartfon zadebiutował na rynku 23 września 2020 roku i już zyskał wiele pozytywnych opinii. Cena za modele z mniejszą pojemnością pamięci RAM oraz pamięci wewnętrznej wynosi:</p>
-                    <ul>
-                        <li>Samsung Galaxy S20FE w wersji 5G, 6GB RAM i 128 GB pam. wewn. - 3399 zł</li>
-                        <li>Samsung Galaxy S20FE w wersji 4G, 6GB RAM i 128 GB pam. wewn. - 2899 zł </li>
-
-                    </ul>
-                    <p>
-                        Ceny wersji z 8GB RAM oraz 256GB pamięci wewnętrznej zostaną podane przez Samsung w połowie października.                </p>
-                    <p>
-                    <h3 class="akapitMniejszy">Czy warto kupić Samsunga Galaxy S20 FE?</h3>
-
-                     <p>Jeśli poszukujesz telefonu, który zagwarantuje Ci mocne podzespoły, dobry aparat, długi czas pracy na baterii oraz wydajność flagowców w niższej cenie, Samsung Galaxy S20 FE z pewnością jest świetnym wyborem. Cena urządzenia jest proporcjonalna do jego jakości, zatem warto w nie zainwestować. Innymi zaletami tego smartfonu są również takie cechy, jak bezprzewodowe oraz indukcyjne ładowanie, nowoczesna łączność, czy wodoszczelna konstrukcja, zapewniająca ochronę przed wodą i kurzem. Zyskujesz także dostęp do wszystkich popularnych usług Google.</p>
-                  <br>
-              </div>
+              <br>
+            </div> -->
         </div>
 </div>
-
 
    <!-- TEKST REKLAMOWY #1 -->
    <section id="ad1-section" class="text-light text-center">
@@ -214,6 +186,7 @@
   </section>
 
 
+  <!-- CARDS -->
   <!-- CARDS -->
   <div id="pokaz" class="card-deck m-3">
     <div class="card box">
@@ -362,6 +335,8 @@
   </div>
   </div>
       
+      
+    
 
 <!-- FACEBOOK -->
 <div class="fb-customerchat"
@@ -445,6 +420,7 @@
     </div>
   </div>
 </div>
+
 
 
 
