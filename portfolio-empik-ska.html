@@ -7,6 +7,7 @@
     <title>.kocieTexty Index</title>
 
             <!-- STYLES & SCRIPTS -->
+            <link rel="icon" type="image/png" href="img/brand/logoNoTextCircle.png"/>
 
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
             <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -31,13 +32,13 @@
             <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.html#portfolio">Portfolio</a>
+            <a class="nav-link" href="index.html#pokaz">Portfolio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="index.html#cennik">Cennik</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="index.html#about">O mnie</a>
+              <a class="nav-link" href="index.html#omnie">O mnie</a>
             </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -53,6 +54,7 @@
       </div>
     </nav>
   
+  
       <!-- END NAVBAR -->
 
   <!-- INTRO TEXT -->
@@ -62,8 +64,10 @@
       <div class="media">
         <img class="mr-3 logoMedia" src="img/logoNoText.png" alt="logoMedia">
         <div class="media-body">
-          <h5 class="mt-0 akapitMniejszy">Artykuł poradnikowy: INTEL</h5>
-          <p class="pt-3 ml-5 justify-text-center">Artykuł zrealizowany dla morele.net <br> W artykule zostałe zamieszczone informacje, dotyczące najnowszych procesorów firmy Intel.</p>
+          <h5 class="mt-0 akapitMniejszy">Opis kategorii: Skarpety i worki na prezenty</h5>
+          <hr>
+          <p class="pt-3 ml-5 justify-text-center">Tekst zrealizowany dla <span class="font-weight-bold">empik.com</span><br>
+            Przedmiotem opisu są świąteczne skarpety oraz worki na prezenty. </p>
         </div>
       </div>
   </div>
@@ -79,28 +83,23 @@
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        <!-- <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li> -->
 
     </ol>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img class="d-block w-100" src="img/portfolio/procINTEL_1.jpg" alt="First slide">
+            <img class="d-block w-100" src="img/portfolio/skar_1.png" alt="First slide">
             <div class="carousel-caption d-none d-md-block">
-                < <h5>Samsung - Morele.pl</h5>
-                <p>Tekst produktowy opisujący telefon Samsung dla Morele.pl</p>
             </div>
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100" src="img/portfolio/procINTEL_2.jpg" alt="Second slide">
+            <img class="d-block w-100" src="img/portfolio/skar_2.png" alt="Second slide">
         </div>
-        <div class="carousel-item">
-            <img class="d-block w-100" src="img/portfolio/procINTEL_3.jpg" alt="Third slide">
-        </div>
-        <div class="carousel-item">
-            <img class="d-block w-100" src="img/portfolio/procINTEL_4.jpg" alt="Fourth slide">
-        </div>
+        <!-- <div class="carousel-item">
+            <img class="d-block w-100" src="img/portfolio/boginie_3.png" alt="Third slide">
+        </div> -->
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -119,50 +118,55 @@
 <div class="container box p-3 m-auto">
       <ul class="nav nav" id="myTab" role="tablist">
         <li class="nav-item">
-          <a class="nav-link active" id="strona1-tab" data-toggle="tab" href="#strona1" role="tab" aria-controls="home" aria-selected="true">Strona #1</a>
+          <a class="nav-link active" id="home-tab" data-toggle="tab" href="#strona1" role="tab" aria-controls="home" aria-selected="true">Strona #1</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" id="strona2-tab" data-toggle="tab" href="#strona2" role="tab" aria-controls="profile" aria-selected="false">Strona #2</a>
+          <a class="nav-link" id="profile-tab" data-toggle="tab" href="#strona2" role="tab" aria-controls="profile" aria-selected="false">Strona #2</a>
         </li>
-        <li class="nav-item"> 
-          <a class="nav-link" id="strona3-tab" data-toggle="tab" href="#strona3" role="tab" aria-controls="contact" aria-selected="false">Strona #3</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" id="strona4-tab" data-toggle="tab" href="#strona4" role="tab" aria-controls="contact" aria-selected="false">Strona #4</a>
-          </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link" id="contact-tab" data-toggle="tab" href="#strona3" role="tab" aria-controls="contact" aria-selected="false">Strona #3</a>
+        </li> -->
       </ul>
       <hr>
       <div class="tab-content p-5" id="myTabContent">
             <div class="tab-pane fade show active" id="strona1" role="tabpanel" aria-labelledby="strona1-tab">
-              <h3 class="akapitMniejszy">Nowe procesory Intel Tiger Lake-H, Alder Lake-P i Alder Lake-S</h3>
-              <p>Już teraz sprawdź kolejne informacje dotyczące premiery nowych procesorów marki Intel 11. oraz 12. generacji</p>
-              <h3 class="akapitMniejszy">Seria Intel Alder Lake</h3>
-              <p>Niedawno zadebiutowały procesory Intel Core 10. generacji, a już pojawiały się doniesienia o powstaniu serii Core 11. generacji. W laptopach znajdą się jednostki Intel Core i5-1135G7 oraz Intel Core i7-1165G7. Pomimo członu „G7", który odnosi się do układu graficznego, procesory będą wyposażone w różne wersje Intel Gen.12 - Xe Graphics. Intel Core i5 otrzyma układ iGPU z 80 jednostkami EU, 1,25 MB cache L2 na każdy z czterech rdzeni oraz 8 MB pamięci cache L3. Z kolei Intel Core i7 otrzyma wersję z 96 jednostkami EU, 1,25 MB cache L2 oraz 12 MB pamięci cache L3. Jest to zauważalnie więcej niż w dotychczasowych, niskonapięciowych jednostkach.<br>
-        </div>
-            <div class="tab-pane fade" id="strona2" role="tabpanel" aria-labelledby="strona2-tab">
-                <p>
-                    Intel Alder Lake, który został zapowiedziany podczas Architecture Day, będzie hybrydową wersją procesora, podobną w koncepcji do znanego z ARM big.LITTLE ARM. Intel przetestował już takie rozwiązanie w jednostkach Lakefield, które pojawiły się latem tego roku, jednak w praktyce pozostają nieosiągalne na rynku. Koncepcja hybrydowego procesora zakłada połączenie rdzeni o różnej architekturze w ramach jednego układu, czego skutkiem jest większa elastyczność całego CPU. Małe rdzenie w Alder Lake, to rdzenie Gracemont – architektury będącej następcą Tremont, znanej z układów Atom, Pentium i Celeron.              <br>
-                <p>
-                    Natomiast duże rdzenie to Golden Cove, a więc rozwinięcie znanych z Tiger Lake-U rdzeni Willow Cove. Alder Lake-S to procesor desktopowy, a przynajmniej tak sugeruje jego nazwa. Według najnowszych przecieków może on trafić także do laptopów, ponieważ ma korzystać z formy BGA. Co oznacza, że Intel szykuje zmiany w nazewnictwie lub w formie BGA. Nadal brakuje informacji o linii Alder Lake-H, więc być może Intel planuje zmienić zastosowanie linii S.                </p>
-                <p>Alder Lake-S na komputery stacjonarne będzie korzystał z podstawki LGA 1700, które ma działać przez co najmniej trzy kolejne generacje. Procesor maksymalnie ma składać się z szesnastu rdzeni (8 GRT + 8 GLC) przy TDP 125 W. Alder Lake-P trafi do platform mobilnych i będzie dostępny z sześcioma rdzeniami Golden Cove i 8 Gracemont. Rdzenie Golden Cove, w procesorach klasy S, jak i P, będą miały aktywny Hyper Threading. To oznacza przynajmniej 24 wątki w Alder Lake-S (8 × 2 +8) i 20 w Alder Lake-P (6 x 2 + 8).
-                </p>
-            </div>
-            <div class="tab-pane fade" id="strona3" role="tabpanel" aria-labelledby="strona3-tab">
-              <h3 class="akapitMniejszy">12. generacja procesorów Intel Core</h3>
-                <p>Alder Lake-P oferuje wbudowany układ graficzny Intel Xe LP o 96 EU, w Alder Lake-S iGPU będzie ograniczony do 32 EU. Obie platformy gwarantują obsługę do 64 GB (ADL-P) i 128 GB (ADL-S) pamięci RAM DDR5-4400. W laptopach z Alder Lake-P znajdą się aż cztery porty Thunderbolt 4 oraz kontroler Maple Ridge (seria 8000). Notebooki z układami AlderLake-S mogą oferować do dwóch kontrolerów Maple Ridge. Obie platformy obsługują Wi-Fi 6E 802.11axR2, co oznacza, że połączą się w paśmie 6 GHz oprócz istniejących pasm 2,4 i 5 GHz.<br>
+              <h3 class="akapitMniejszy">Skarpety i worki na prezenty</h3>
               <p>
-                Obie platformy zapewnią także obsługę PCI Express 5.0. W Alder Lake-P będzie to osiem linii PCIe 5.0 i cztery PCIe 4.0 z procesora oraz 12 linii PCIe 3.0 z PCH. Alder Lake-S ma oferować 16 linii PCIe 5.0 i cztery PCIe Gen4 z procesora, a także 16 linii PCIe Gen4 i 12 linii PCIe Gen3 z PCH, w sumie 48 linii. Firma Intel dodała do jądra Linuksa zabezpieczenie Multi-Key Total Memory Encryption (MK-TME), szyfrujące pamięć systemową podczas spoczynku, działania i przesyłania. Alder Lake to pierwsza platforma firmy Intel wspierająca tę funkcję zabezpieczeń. To rozwinięcie technologii Control Flow Enforcement Technology (CET), która jest już wbudowana w Tiger Lake.              <p>
-                    Procesory Tiger Like-H będą bazować na rdzeniach 10 nm Willow Cove. Maksymalnie otrzymają 8 rdzeni, co oznacza potężne możliwości. Tiger Lake-H najprawdopodobniej pojawi się w wariantach 35 W i 45 W. Miałyby to być odpowiednio opcje dla czterech i ośmiu rdzeni. Trafią do mobilnych stacji roboczych i laptopów dla graczy – układ graficzny nie jest tak istotny, gdyż niemal zawsze iGPU towarzyszy mocny dGPU. Dlatego w Tiger Lake-H umieszczono iGPU Xe o 32 jednostkach wykonawczych, słabszy niż w Alder Cove, czy Tiger Lake-U. Tiger Lake-H będzie obsługiwał pamięć RAM DDR4-3200 do 128 GB, a łącznie będzie miał 20 linii PCIe 4.0 z procesora i 24 linii PCIe 3.0 z PCH.              </p>
-             
+                Tradycja rozwieszania w domu świątecznych skarpet oraz worków na prezenty pochodzi ze Stanów Zjednoczonych. W wigilijną noc święty Mikołaj zostawia w nich w prezenty, a wczesnym rankiem rodzina odkrywa, że ich prośby zostały wysłuchane. Aby zaskoczyć bliskich wyjątkowymi podarunkami, wystarczy wypełnić te bożonarodzeniowe akcesoria niewielkimi drobiazgami. Najmłodszych ucieszą zabawki lub słodycze, a nieco starszych ulubione perfumy lub elektroniczne gadżety.               </p>
+              <br>
+              <h3 class="akapitMniejszy">Tradycja i nowoczesność</h3>
+              <p>
+                W Polsce święty Mikołaj, Gwiazdor, Dzieciątko lub Gwiazdka przychodzą do wszystkich dzieci z ogromnym workiem prezentów, aby nagrodzić je za cały rok dobrego zachowania. Jednak dla tych, którzy doskonale wiedzą, kto kryje się za tymi świątecznymi postaciami, skarpety na prezenty mogą być świetnym sposobem na ukrycie mikołajkowych lub gwiazdkowych upominków. Wystarczy umieścić je na kominku, choince, oknach lub drzwiach, a domownicy z pewnością bardzo szybko odkryją ukryte w nich niespodzianki. Te gadżety staną się również miłą dla oka bożonarodzeniową ozdobą.
+              </p>
             </div>
-            <div class="tab-pane fade" id="strona4" role="tabpanel" aria-labelledby="strona4-tab">
-                <h3 class="akapitMniejszy">Kiedy pojawią się nowe procesory Intela?</h3>
-                    <p>
-                        Intel Tiger Lake-U zaprezentowano 2 września 2020 roku. Dla części klientów układy 4-rdzeniowe i 8-wątkowe to jednak zbyt mało. Dla nich Intel przygotowuje mocniejsze modele Tiger Lake-H. Nowe konstrukcje Tiger Lake-H trafią do sprzedaży już na początku 2021 roku. Jeśli informacje są prawdziwe, to Tiger Lake-H będzie pierwszą wysokowydajną mobilną serią Intela wyprodukowaną w procesie 10 nm. W segmencie desktopowym na pierwsze procesory w 10 nm trzeba będzie poczekać do 2022 roku, kiedy do sklepów powinna trafić rodzina Intel Alder Lake.                    </p>
-              </div>
+            <div class="tab-pane fade" id="strona2" role="tabpanel" aria-labelledby="strona2-tab">
+              <h3 class="akapitMniejszy">Ekologiczne i długotrwałe opakowania na prezenty</h3>
+                <p>
+                    W naszej ofercie dostępne są zarówno małe, jak i duże skarpety świąteczne, w których pomieszczą się podarunki o wszystkich rozmiarach. Zostały one stworzone z różnych materiałów – juta lub inna syntetyczna tkanina pomogą zatroszczyć się o środowisko, gdyż wykonane z nich dekoracje będzie można wykorzystać również w kolejnych latach. Klasyczne, czerwone worki na prezenty wyróżniają się atrakcyjnymi wzorami – nadruk Świętego Mikołaja, Renifera lub Bałwana odmieni wnętrza i nada im magicznego charakteru. 
+                </p>
+              <br>
+              <p>
+                Święta to czas, w którym rodziny dzielą się radością, miłością i niezwykłymi podarunkami. Wystarczy kilka dodatków, aby oprócz upominków zapakowanych w kolorowy papier pod świątecznym drzewkiem znalazły się również te umieszczone w nieco bardziej kreatywnych opakowaniach.    
+              </p>
+              <br>
+              <!-- <h3 class="akapitMniejszy">Troska o domowych pupili</h3> -->
+                <p>
+                    Sprawdź ofertę świątecznych skarpet oraz worków na prezenty i zaskocz swoich bliskich kreatywnością.
+                </p>
+                <br>
+            </div>
+            <!-- <div class="tab-pane fade" id="strona3" role="tabpanel" aria-labelledby="strona3-tab">
+              <h3 class="akapitMniejszy">Troska o edukację, zdrowie i rodzinę</h3>
+                <p>Gry planszowe mają zbawienny wpływ na mózg, ponieważ posiadają elementy strategiczne i taktyczne, które wymagają dokonywania obliczonych wyborów. Oznacza to, że dzięki produktom firmy Alexander możecie zadbać nie tylko o edukację swoich pociech, ale również o ich zdrowy rozwój fizyczny, jak i psychiczny. Gry edukacyjne są bardzo skuteczne w zakresie rozwiązywania problemów oraz podejmowania decyzji.
+                </p>         
+                <br>
+              <p>
+                Gry Alexander są także pomocne w nawiązywaniu nowych przyjaźni i w rozwijaniu wielu zainteresowań. Chińczyk, warcaby, sudoku, to jedne z najpopularniejszych rozrywek, które znają wszyscy bez względu na wiek. Oznacza to, że gry planszowe łączą wszystkie pokolenia, a także pozwalają na oderwanie się od świata nowoczesnych technologii i skupienie na tym, co najważniejsze, czyli budowaniu pozytywnych relacji z bliskimi.
+              </p>
+              <br>
+            </div> -->
         </div>
 </div>
-
 
    <!-- TEKST REKLAMOWY #1 -->
    <section id="ad1-section" class="text-light text-center">
@@ -178,8 +182,9 @@
   </section>
 
 
-   <!-- CARDS -->
-   <div id="pokaz" class="card-deck m-3">
+  <!-- CARDS -->
+  <!-- CARDS -->
+  <div id="pokaz" class="card-deck m-3">
     <div class="card box">
       <img class="card-img-top" src="img/portfolio/gwiPro_1.png" alt="Card image cap">
       <div class="card-body">
@@ -322,13 +327,14 @@
 
 
 
-
-  </div>
   </div>
 </div>
-</div>
+  </div>
+  </div>
+      
       
     
+
 <!-- FACEBOOK -->
 <div class="fb-customerchat"
  page_id="<https://pl-pl.facebook.com/KocieTexty/>"
@@ -411,6 +417,8 @@
     </div>
   </div>
 </div>
+
+
 
 
 
